@@ -4,9 +4,7 @@ from tkinter import messagebox
 from tkinter import ttk
 import string
 
-# =========================
 # Config
-# =========================
 GOAL_BALANCE = 10000.00
 
 DIFFICULTY_START_BALANCE = {
@@ -69,9 +67,7 @@ MULTIPLIERS = {
     24: [24.75]
 }
 
-# =========================
 # Code Generators
-# =========================
 def _digits_with_sum(target_sum: int) -> str:
     digits = []
     remaining = target_sum
@@ -143,9 +139,7 @@ def code_for_difficulty(d: str) -> str:
         return generate_medium_code()
     return generate_hard_code()
 
-# =========================
 # Game Logic
-# =========================
 class MinesGame:
     def __init__(self, size, num_mines, balance):
         self.size = size
@@ -179,9 +173,7 @@ class MinesGame:
         self.safe_tiles_left -= 1
         return "Safe"
 
-# =========================
 # App
-# =========================
 class App:
     def __init__(self, root):
         self.root = root
@@ -461,9 +453,8 @@ class MinesGameUI:
 
         self.check_bankrupt()
 
-    # -------------------------
+
     # Reward/Claim logic (no nagging)
-    # -------------------------
     def enable_claim_button(self):
         if self.claim_button is not None:
             return
@@ -567,9 +558,7 @@ class MinesGameUI:
                 "Friendly reminder: if you want to claim your code, click 'Claim Reward' at the top."
             )
 
-    # -------------------------
     # UI helpers
-    # -------------------------
     def show_disclaimer_overlay(self):
         overlay = tk.Frame(self.container, bg="black")
         overlay.place(relx=0, rely=0, relwidth=1, relheight=1)
@@ -596,9 +585,7 @@ class MinesGameUI:
             return True
         return False
 
-    # -------------------------
     # Gameplay
-    # -------------------------
     def on_tile_click(self, row, col):
         result = self.game.reveal_tile(row, col)
         if result == "Mine":
@@ -678,9 +665,7 @@ class MinesGameUI:
                     self.buttons[r][c].config(text="X", state=tk.DISABLED, bg="#BF616A")
 
 
-# =========================
 # Run
-# =========================
 if __name__ == "__main__":
     root = tk.Tk()
     App(root)
