@@ -5,7 +5,7 @@ This project focuses on **probability, risk management, and decision-making**, n
 
 ---
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 **Educational / simulation only.**  
 - No real money  
@@ -16,7 +16,7 @@ This project exists strictly for **learning, demonstrations, and portfolio use**
 
 ---
 
-## 🎯 Game Objective
+## Game Objective
 
 - Start with a balance based on difficulty
 - Place bets and reveal tiles while avoiding mines
@@ -26,7 +26,7 @@ This project exists strictly for **learning, demonstrations, and portfolio use**
 
 ---
 
-## 🧠 Difficulty Levels
+## Difficulty Levels
 
 | Difficulty | Starting Balance | Ballot Entries |
 |----------|------------------|----------------|
@@ -38,7 +38,7 @@ This project exists strictly for **learning, demonstrations, and portfolio use**
 
 ---
 
-## 🏆 Reward & Entry System (Educational Raffle)
+## Reward & Entry System (Educational Raffle)
 
 - Reaching the goal awards a **unique code**
 - Each difficulty grants a different number of **entries**
@@ -52,7 +52,7 @@ You may:
 
 ---
 
-## 🧾 Code Submission
+## Code Submission
 
 When claiming a reward, you will receive:
 1. A **unique code**
@@ -65,7 +65,7 @@ Submission is done through the Google Form link displayed in-game.
 
 ---
 
-## 🛠 Features
+## Features
 
 - Tkinter-based GUI
 - Strategy-focused Mines gameplay
@@ -78,7 +78,7 @@ Submission is done through the Google Form link displayed in-game.
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 1. Install **Python 3.9+**
 2. Clone the repository:
