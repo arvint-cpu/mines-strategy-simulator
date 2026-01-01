@@ -43,7 +43,7 @@ This project exists strictly for **learning, demonstrations, and portfolio use**
 - Reaching the goal awards a **unique code**
 - Each difficulty grants a different number of **entries**
 - Entries determine how many times your name is placed into the ballot
-- A **random ballot winner** receives the reward (e.g., 100 RP)
+- A **random ballot winner** receives the reward (e.g., $15 Gift Card of Choice)
 
 You may:
 - Continue playing after reaching the goal
