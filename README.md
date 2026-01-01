@@ -84,3 +84,25 @@ Submission is done through the Google Form link displayed in-game.
 2. Clone the repository:
    ```bash
    git clone https://github.com/arvint-cpu/mines-strategy-simulator.git
+
+---
+
+## 🤝 Collaboration & Contact
+
+> Note: I’m currently 17 years old and working on this project as part of my learning and development.  
+> Open to collaboration, mentorship, and educational projects.
+
+Interested in collaborating, extending this project, or building something new together?
+
+I’m open to:
+- Improving this simulator
+- Adding new features or game modes
+- Educational or strategy-based projects
+- UI / probability / game logic work
+
+📧 **arvinthayaparan@gmail.com**  
+GitHub: **https://github.com/arvint-cpu**
+
+If you adapt or build on this project for educational use,  
+please include the original attribution.
+
